@@ -1,6 +1,6 @@
 # Notes App
 
-A personal notes management application built with React that helps users create, organize, search, and manage notes with priority levels, tags, and archive options.
+A personal notes management application built with React that helps users create, organize, search, and manage notes with priority levels, tags, and archive options. 
 
 ## Live Demo
 
