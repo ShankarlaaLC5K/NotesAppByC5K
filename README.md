@@ -1,16 +1,61 @@
-# React + Vite
+# Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal notes management application built with React that helps users create, organize, search, and manage notes with priority levels, tags, and archive options.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Live Application](https://notesappbyc5k.netlify.app/)
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[View Source Code](https://github.com/ShankarlaaLC5K/NotesAppByC5K)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Create, edit, and view notes
+- Organize notes into Active, Archived, and Trash sections
+- Search notes by title and description
+- Filter notes using tags
+- Pin and unpin important notes
+- Assign High, Medium, and Low priorities
+- Archive and restore notes
+- Move notes to Trash and permanently delete them
+- Different background colours for note cards
+- Save notes using browser localStorage
+- Expandable sidebar navigation
+
+## Technologies Used
+
+- React
+- JavaScript
+- Tailwind CSS
+- Vite
+- Lucide React
+- HTML
+- CSS
+
+## Project Structure
+
+NotesAppByC5K/
+├── public/
+│   ├── favicon.svg
+│   └── icons.svg
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Card.jsx
+│   │   ├── Form.jsx
+│   │   ├── SideArea.jsx
+│   │   └── Sidearea.css
+│   ├── App.jsx
+│   ├── MainApp.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+
+## Deployment
+
+- Frontend: Netlify
